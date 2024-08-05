@@ -22,7 +22,10 @@ class _ChangeColorState extends State<ChangeColor>{
   @override
   Widget build (BuildContext context){
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Stateful Widget",
+          style:TextStyle(color:Colors.white,fontWeight:FontWeight.bold),),
+        backgroundColor: Colors.deepPurple, ),
     );
   }
 
